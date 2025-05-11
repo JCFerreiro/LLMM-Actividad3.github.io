@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="icon" type="image/png" href="img/logo-colorido.png">
+    <title>IT Consultancy - Services for professionals</title>
+</head>
+<body>
+    <div class="header">
+
+        <!-- Logo section -->
+        <div class="logo">
+            <div class="header-logo-container">
+                <a href="index.html">
+                    <img class="header-logo-img" src="img/logo-claro.png">
+                </a>
+            </div>
+            <div class="header-logo-text">
+                <span class="header-logo-span">
+                    IT Consultancy
+                </span>
+                <span class="header-logo-motto">
+                    Services for professionals
+                </span>
+            </div>
+        </div>
+
+        <!-- Menu section -->
+        <div class="menu">
+            <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle-checkbox">
+            <label for="hamburger-toggle" class="hamburger-button-label">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
+            <ul class="menu-list">
+                <li>
+                   <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="company.html">Our company</a>
+                 </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+            </ul>
+            <!-- Options section -->
+            <!--
+            <div class="options">
+                <div class="language-selector">
+                    <img id="en-lang-icon" src="img/en-flag-ready.png">
+                    <img id="es-lang-icon" src="img/es-flag-ready.png">
+                </div>
+            </div>
+            -->
+        </div>
+
+    </div>
+    <div class="body">
+
+        <!-- Carrousel is going to be 100% width -->
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="slides">
+
+                    <div class="slide">
+                        <div class="slide-over">
+                            <div class="left-section"></div>
+                            <div class="center-section">
+                                <h2>Build Smarter Software, Faster</h2>
+                                <span>From web apps to enterprise systems, we craft tailored development solutions to help your business move faster and scale with confidence.</span>
+                            </div>
+                            <div class="right-section"></div>
+                        </div>
+                        <img src="img/development-carousel.jpg" alt="slide image" class="slide">
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-over">
+                            <div class="left-section"></div>
+                            <div class="center-section">
+                                <h2>Secure Your Digital Future</h2>
+                                <span>Protect your business from modern threats with cutting-edge cybersecurity. Audits, monitoring, and proactive defense — all in one.</span>
+                            </div>
+                        </div>
+                        <img src="img/cybersec-carousel.jpg" alt="slide image" class="slide">
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-over">
+                            <div class="left-section"></div>
+                            <div class="center-section">
+                                <h2>Solid Infrastructure, Seamless Performance</h2>
+                                <span>We design and manage robust, scalable cloud infrastructure — so you can focus on what matters: growing your business.</span>
+                            </div>
+                        </div>
+                        <img src="img/servers-carousel.jpg" alt="slide image" class="slide">
+                    </div>
+
+                </div>
+                    
+                <div class="controls">
+                    <div class="control prev-slide">&#9668;</div>
+                    <div class="control next-slide">&#9658;</div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- Rest of stuff is going to be in the middle third of the screen -->
+        <div class="index-container">
+
+            <div class="left-section">
+                <!-- This is going to be empty -->
+            </div>
+
+            <!-- Center section -->
+            <div class="center-section">
+
+                <!-- Mission -->
+                <div class="mission">
+                    <h2>Why choose us?</h2>
+                    <p>Do you need tech people? Call us! We are the best at it. While everyone was dancing and having fun at the disco, guess who was at home in their basement fiddling with machines?</p>
+                    <ul class="mission-list">
+                        <li>
+                            Over 10 years of experience
+                        </li>
+                        <li>
+                            24/7 support
+                        </li>
+                        <li>
+                            Certified specialists
+                        </li>
+                        <li>
+                            Satisfied clients in 12 countries
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Testimonials -->
+                <div class="testimonials">
+                    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+                    <h2>What our clients say about us</h2>
+                    <div class="card-wrapper">
+                        <main id="card">
+                            <div id="card-controls">
+                                <ion-icon id="control-left" class="icon icon-control-left" name="chevron-back-outline"></ion-icon>
+                                <ion-icon id="control-right" class="icon icon-control-right" name="chevron-forward-outline"></ion-icon>
+                            </div>
+                            <header class="card-header">
+                                <h1 id="card-name"></h1>
+                                <h3 id="card-job-title"></h3>
+                            </header>
+                            <hr>
+                            <section class="card-body">
+                                <div class="card-img-sec">
+                                    <img id="card-img" class="card-img" src="" alt="">
+                                </div>
+                                <div class="card-info-sec">
+                                        <h4 id="card-text" class="card-text">
+                                        </h4>
+                                </div>
+                            </section>
+                        </main>
+                    </div>
+                </div>
+
+
+                <!-- FAQ -->
+                <div class="faq">
+                    <h2>Need to know more?</h2>
+                    <div class="accordion-item">
+                        <div class="accordion-tab-container">
+                            <div class="accordion-caret-container">
+                                <span class="accordion-caret">></span>
+                            </div>
+                            <h2>Do we outsource?</h2>
+                        </div>
+                        <div class="accordion-item display">
+                          <p>No, we do not outsource any part of our development process. All work is done internally by our skilled team to maintain full control over quality, security, and communication. This approach ensures that we can be agile, responsive, and closely aligned with our clients throughout every stage of the project.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-tab-container">
+                          <div class="accordion-caret-container">
+                            <span class="accordion-caret">></span>
+                          </div>
+                          <h2>Do we offer closed budgets?</h2>
+                        </div>
+                        <div class="accordion-item display">
+                          <p>Yes, we offer closed budgets for projects with a clearly defined scope and requirements. This allows clients to know exactly what they are paying for from the beginning, with no unexpected costs. We carefully assess the needs of each project to provide accurate, transparent, and fair pricing.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-tab-container">
+                          <div class="accordion-caret-container">
+                            <span class="accordion-caret">></span>
+                          </div>
+                          <h2>How long does it take to start working on a project?</h2>
+                        </div>
+                        <div class="accordion-item display">
+                          <p>Once a project is approved and the requirements are confirmed, we can usually begin within a few business days. Our onboarding process is efficient, and we prioritize early alignment to ensure a smooth start. Availability may vary slightly depending on our current project load, but we strive to begin as quickly as possible.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call To Action -->
+                <div class="cta">
+                    <h2>Facing a tech challenge? Let’s talk <a href="contact.html">today!</a></h2>
+                </div>
+
+            </div>
+
+            <div class="right-section">
+                <!-- This is going to be empty -->
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left-footer">
+            <div class="footer-links">
+                <ul>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">Our company</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="">Privacy policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-footer">
+            <div class="footer-contact">
+                    <p class="footer-contact-title">Contact</p>
+                    <p><strong>Email:</strong> <a href="mailto:info@itconsultancy.com">info@itconsultancy.com</a></p>
+                    <p><strong>Phone:</strong> +358 40 123 PAPA</p>
+                    <p><strong>Address:</strong> Santa's Workshop, Arctic Circle, North Pole</p>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script src="js/carousel.js"></script>
+        <script src="js/accordion.js"></script>
+        <script src="js/testimonials.js"></script>
+    </div>
+</body>
+</html>
